@@ -48,9 +48,11 @@ header h2 {
 
 header a {
     display: inline-block;
-    width: 50vw;
+    width: 60vw;
+    font-family: 'Saira', sans-serif;
     text-align: center;
     text-decoration: none;
+    padding: 0 15px;
     line-height: 32px;
     font-size: 1.2rem;
     font-weight: 300;
@@ -61,6 +63,104 @@ header img {
     position: absolute;
     height: 55vh;
     width: 100vw;
-    left: 50px;
+    left: 15vw;
     bottom: 0;
+}
+
+@media (orientation: portrait) and (min-width: 320px) {
+
+    header p {
+        font-size: 4.2rem;
+    }
+
+    header h1, header h2 {
+        font-size: 2.4rem;
+    }
+    header a {
+        line-height: 34px;
+        font-size: 1.2rem;
+    }
+}
+
+@media (orientation: portrait) and (min-width: 360px) {
+
+    header p {
+        font-size: 4.8rem;
+    }
+
+    header h1, header h2 {
+        font-size: 2.4rem;
+    }
+    header a {
+        line-height: 38px;
+        font-size: 1.4rem;
+    }
+}
+
+@media (orientation: portrait) and (min-width: 375px) {
+
+    header p {
+        font-size: 5rem;
+    }
+
+    header h1, header h2 {
+        font-size: 2.8rem;
+    }
+    header a {
+        line-height: 40px;
+        font-size: 1.5rem;
+    }
+}
+
+@media (orientation: portrait) and (min-width: 411px) {
+
+    header p {
+        font-size: 6rem;
+    }
+
+    header h1, header h2 {
+        font-size: 3.2rem;
+    }
+    header a {
+        line-height: 46px;
+        font-size: 1.7rem;
+    }
+}
+
+/* Samsung Galaxy S9 */
+
+@media (max-width: 360px) and (min-height: 740px) {
+
+    header p {
+        font-size: 7rem;
+    }
+
+    header h1, header h2 {
+        font-size: 3rem;
+    }
+
+    header a {
+        width: 65vw;
+        line-height: 44px;
+        font-size: 1.6rem;
+    }
+}
+
+/* Samsung Galaxy S9+ */
+
+@media (max-width: 412px) and (min-height: 846px) {
+
+    header p {
+        font-size: 8rem;
+    }
+
+    header h1, header h2 {
+        font-size: 3.4rem;
+    }
+
+    header a {
+        width: 65vw;
+        line-height: 48px;
+        font-size: 1.8rem;
+    }
 }
