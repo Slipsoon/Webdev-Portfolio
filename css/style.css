@@ -195,6 +195,25 @@ header img {
     }
 }
 
+/* iPad */
+
+@media (min-width: 768px) and (min-height: 1024px) {
+    header p {
+        font-size: 9rem;
+    }
+
+    header h1, header h2 {
+        font-size: 4.5rem;
+    }
+
+    header a {
+        width: 60vw;
+        margin-top: 20px;
+        line-height: 60px;
+        font-size: 2.8rem;
+    }
+}
+
 /* Landscape orientations */
 
 /* Nokia Lumia 520 */
@@ -216,8 +235,8 @@ header img {
     }
 
     header img {
-        height: 100vh;
-        width: 60vw;
+        height: 90vh;
+        width: 47vw;
         left: 55vw;
     }
 }
@@ -263,6 +282,10 @@ header img {
     header a {
         line-height: 38px;
         font-size: 1.4rem;
+    }
+
+    header img {
+        left: 62vw;
     }
 }
 
@@ -310,5 +333,138 @@ header img {
     header a {
         line-height: 44px;
         font-size: 1.8rem;
+    }
+}
+
+/* Desktop 1024px */
+
+@media (orientation: Landscape) and (min-width: 970px) {
+
+    header div.welcome {
+        top: 15vh;
+    }
+
+    header p {
+        font-size: 10rem;
+    }
+
+    header h1, header h2 {
+        font-size: 4.5rem;
+    }
+
+    header a {
+        width: 37vw;
+        line-height: 70px;
+        font-size: 2.6rem;
+        margin: 60px 0;
+        padding: 0 25px;
+        transition: .4s;
+    }
+
+    header a:hover {
+        background-color: #fff;
+        color: #111;
+    }
+
+    header img {
+        left: 65vw;
+    }
+}
+
+/* Desktop 1280px  */
+
+@media (orientation: Landscape) and (min-width: 1280px) {
+
+    header div.welcome {
+        left: 10vw;
+        top: 15vh;
+    }
+
+    header p {
+        font-size: 11rem;
+    }
+
+    header h1, header h2 {
+        font-size: 5rem;
+    }
+
+    header a {
+        width: 36vw;
+        line-height: 70px;
+        font-size: 2.8rem;
+    }
+
+    header img {
+        left: 60vw;
+    }
+}
+
+/* Desktop 1440px  */
+
+@media (orientation: Landscape) and (min-width: 1440px) {
+
+    header div.welcome {
+        left: 10vw;
+        top: 15vh;
+    }
+
+    header p {
+        font-size: 12rem;
+    }
+
+    header h1, header h2 {
+        font-size: 6rem;
+    }
+
+    header a {
+        width: 36vw;
+        line-height: 70px;
+        font-size: 2.8rem;
+    }
+}
+
+/* Desktop 1440px  */
+
+@media (orientation: Landscape) and (min-width: 1600px) {
+
+    header div.welcome {
+        left: 10vw;
+        top: 15vh;
+    }
+
+    header p {
+        font-size: 14rem;
+    }
+
+    header h1, header h2 {
+        font-size: 7rem;
+    }
+
+    header a {
+        width: 36vw;
+        line-height: 70px;
+        font-size: 2.8rem;
+    }
+}
+
+@media (orientation: Landscape) and (min-width: 1920px) {
+
+    /* header div.welcome {
+        left: 10vw;
+        top: 15vh;
+    }
+
+    header p {
+        font-size: 14rem;
+    }
+
+    header h1, header h2 {
+        font-size: 7rem;
+    } */
+
+    header a {
+        width: 36vw;
+        line-height: 90px;
+        font-size: 3.4rem;
     }
 }
