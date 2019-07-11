@@ -1,6 +1,8 @@
 /* font-family: 'Saira', sans-serif;
 font-family: 'Saira Condensed', sans-serif; */
 
+/* Nokia Lumia 520 */
+
 * {
     margin: 0;
     padding: 0;
@@ -67,7 +69,9 @@ header img {
     bottom: 0;
 }
 
-@media (orientation: portrait) and (min-width: 320px) {
+/* iPhone 5/SE */
+
+@media (min-height: 568px) and (min-width: 320px) {
 
     header p {
         font-size: 4.2rem;
@@ -81,6 +85,8 @@ header img {
         font-size: 1.2rem;
     }
 }
+
+/* Galaxy S5 */
 
 @media (orientation: portrait) and (min-width: 360px) {
 
@@ -97,6 +103,8 @@ header img {
     }
 }
 
+/* iPhopne 6/7/8 */
+
 @media (orientation: portrait) and (min-width: 375px) {
 
     header p {
@@ -111,6 +119,8 @@ header img {
         font-size: 1.5rem;
     }
 }
+
+/* iPhopne 6/7/8 Plus / Pixel 2*/
 
 @media (orientation: portrait) and (min-width: 411px) {
 
@@ -161,6 +171,144 @@ header img {
     header a {
         width: 65vw;
         line-height: 48px;
+        font-size: 1.8rem;
+    }
+}
+
+/* iPhone X */
+
+@media (max-width: 375px) and (min-height: 812px) {
+
+    header p {
+        font-size: 7rem;
+    }
+
+    header h1, header h2 {
+        font-size: 3rem;
+    }
+
+    header a {
+        width: 70vw;
+        margin-top: 20px;
+        line-height: 50px;
+        font-size: 1.8rem;
+    }
+}
+
+/* Landscape orientations */
+
+/* Nokia Lumia 520 */
+
+@media (orientation: Landscape) {
+
+    header div.welcome {
+        width: 30wh;
+        height: 100vh;
+        position: absolute;
+        left: 10vw;
+        top: 10vh;
+        text-align: left;
+    }
+
+    header a {
+        width: 35vw;
+        border: 1px solid white;
+    }
+
+    header img {
+        height: 100vh;
+        width: 60vw;
+        left: 55vw;
+    }
+}
+
+/* iPhone 5/SE */
+
+@media (orientation: Landscape) and (min-width: 568px) {
+
+    header div.welcome {
+        top: 5vh;
+    }
+
+    header p {
+        font-size: 5rem;
+    }
+
+    header h1, header h2 {
+        font-size: 2.2rem;
+    }
+
+    header a {
+        line-height: 36px;
+        font-size: 1.3rem;
+    }
+}
+
+/* Samsung Galaxy S5 */
+
+@media (orientation: Landscape) and (min-width: 640px) {
+
+    header div.welcome {
+        top: 5vh;
+    }
+
+    header p {
+        font-size: 5.5rem;
+    }
+
+    header h1, header h2 {
+        font-size: 2.8rem;
+    }
+
+    header a {
+        line-height: 38px;
+        font-size: 1.4rem;
+    }
+}
+
+/* iPhone 6/7/8 Plus / Pixel 2 */
+
+@media (orientation: Landscape) and (min-width: 731px) {
+
+    header p {
+        font-size: 6.5rem;
+    }
+
+    header h1, header h2 {
+        font-size: 3rem;
+    }
+
+    header a {
+        line-height: 42px;
+        font-size: 1.6rem;
+    }
+}
+
+/* Galaxy S9 */
+
+@media (min-height: 360px) and (min-width: 740px) {
+    header div.welcome {
+        top: 0vh;
+    }
+}
+
+/* Galaxy S9+ */
+
+@media (min-height: 412px) and (min-width: 845px) {
+    header div.welcome {
+        top: 5vh;
+    }
+
+    header p {
+        font-size: 7rem;
+    }
+
+    header h1, header h2 {
+        font-size: 3.2rem;
+    }
+
+    header a {
+        line-height: 44px;
         font-size: 1.8rem;
     }
 }
