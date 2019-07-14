@@ -9,6 +9,12 @@ font-family: 'Saira Condensed', sans-serif; */
     box-sizing: border-box;
 }
 
+.clearfix::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
 html {
     font-size: 10px;
 } 
@@ -467,14 +473,14 @@ section.features {
     overflow: hidden;
 }
 
-section h1, section h2 {
+section.features h1, section.features h2 {
     text-align: center;
     text-transform: uppercase;
     font-family: 'Saira Condensed', sans-serif;
     font-weight: 700;
 }
 
-section h1 {
+section.features h1 {
     font-size: 2.4rem;
     width: 80vw;
     margin: 0 auto;
@@ -482,7 +488,7 @@ section h1 {
     padding-bottom: 15px;
 }
 
-section h2 {
+section.features h2 {
     width: 70vw;
     margin: 0 auto;
     padding-bottom: 20px;
@@ -490,7 +496,7 @@ section h2 {
     line-height: 1.2;
 }
 
-section p {
+section.features p {
     width: 80vw;
     margin: 0 auto;
     text-align: center;
@@ -499,7 +505,7 @@ section p {
     font-weight: 300;
 }
 
-div.feature {
+section div.feature {
     height: 65vh;
 }
 
@@ -520,19 +526,19 @@ section div.feature img {
 /* Samsung Galaxy S5 */
 
 @media (orientation: portrait) and (min-width: 360px) {
-    section h1 {
+    section.features h1 {
         font-size: 2.8rem;
     }
 
-    section h2 {
+    section.features h2 {
         font-size: 2.2rem;
     }
 
-    section p {
+    section.features p {
         font-size: 1.4rem;
     }
 
-    section h2:nth-child(2) {
+    section.features h2:nth-child(2) {
         width: 75vw;
     }
 
@@ -544,34 +550,34 @@ section div.feature img {
 /* iPhone 6/7/8 */
 
 @media (orientation: portrait) and (min-width: 375px) {
-    section h1 {
+    section.features h1 {
         font-size: 3rem;
     }
 
-    section h2 {
+    section.features h2 {
         font-size: 2.4rem;
     }
 
-    section p {
+    section.features p {
         font-size: 1.5rem;
     }
 
-    section h2:nth-child(2) {
+    section.features h2:nth-child(2) {
         width: 80vw;
     }
 }
 
-/* iPhone 6/7/8 Plus */
-@media (orientation: portrait) and (min-width: 414px) {
-    section h1 {
+/* iPhone 6/7/8 Plus / Pixel 2 */
+@media (orientation: portrait) and (min-width: 411px) {
+    section.features h1 {
         font-size: 3.2rem;
     }
 
-    section h2 {
+    section.features h2 {
         font-size: 2.6rem;
     }
 
-    section p {
+    section.features p {
         font-size: 1.6rem;
     }
 }
@@ -599,20 +605,267 @@ section div.feature img {
         height: 54vh;
     }
 
-    section h2:nth-child(2) {
+    section.features h2:nth-child(2) {
         width: 85vw;
     }
 
-    section h1 {
+    section.features h1 {
         font-size: 3.4rem;
     }
 
-    section h2 {
+    section.features h2 {
         font-size: 2.8rem;
     }
 
-    section p {
+    section.features p {
         font-size: 1.8rem;
+    }
+}
+
+/* iPad */
+
+@media (orientation: portrait) and (min-width: 768px) {
+
+    section div.feature:first-child {
+        height: 65vh;
+    }
+
+    section div.feature {
+        height: 70vh;
+    }
+
+    section.features h1 {
+        font-size: 4.5rem;
+    }
+
+    section.features h2 {
+        font-size: 3.5rem;
+        padding-bottom: 30px;
+    }
+
+    section.features p {
+        font-size: 2.5rem;
+    }
+}
+
+/* Orientation Landscape */
+
+@media (orientation: Landscape) {
+    
+    section.features {
+        height: 145vh;
+        padding: 30px 0 0;
+    }
+
+    section div.features {
+        height: 110vh;
+        width: 90vw;
+        margin: 0 auto;
+    }
+
+    section div.feature {
+        float: left;
+        width: 26.5vw;
+        height: 110vh;
+        margin: 0;
+    }
+
+    section div.feature img {
+        width: 26.5vw;
+        margin: 0;
+    }
+
+    section.features h2 {
+        width: 26.5vw;
+        margin: 0;
+    }
+
+    section.features p {
+        width: 26.5vw;
+        margin: 0;
+    }
+
+    section div.feature:nth-child(2) {
+        margin: 0 5vw;
+    }
+}
+
+/* iPhone 5/SE */
+
+@media (orientation: Landscape) and (min-width: 568px) {
+    section.features {
+        height: 135vh;
+    }
+
+    section div.features {
+        width: 95.5vw;
+    }
+
+    section div.feature {
+        width: 28.5vw;
+    }
+
+    section.features h2 {
+        width: 28.5vw;
+    }
+
+    section.features p {
+        width: 28.5vw;
+    }
+
+    section div.feature img {
+        width: 28.5vw;
+    }
+}
+
+/* Samsung Galaxy S5 */
+
+@media (orientation: Landscape) and (min-width: 640px) {
+    section.features h1 {
+        font-size: 2.6rem;
+    }
+
+    section.features h2 {
+        font-size: 2rem;
+    }
+
+    section.features p {
+        font-size: 1.3rem;
+    }
+}
+
+/* iPhone 6/7/8 */
+
+@media (orientation: Landscape) and (min-width: 667px) {
+    section.features h1 {
+    font-size: 2.8rem;
+    }
+
+    section.features h2 {
+        font-size: 2.1rem;
+    }
+
+    section.features p {
+        font-size: 1.4rem;
+    }
+}
+
+/* iPhone 6/7/8 */
+
+@media (orientation: Landscape) and (min-width: 667px) {
+    section.features h1 {
+    font-size: 2.8rem;
+    }
+
+    section.features h2 {
+        font-size: 2.1rem;
+    }
+
+    section.features p {
+        font-size: 1.4rem;
+    }
+}
+
+/* iPhone 6/7/8 / Pixel 2*/
+
+@media (orientation: Landscape) and (min-width: 731px) {
+
+    section.features {
+        height: 130vh;
+    }
+
+    section div.features {
+        height: 100vh;
+    }
+
+    section div.feature {
+        height: 100vh;
+    }
+
+    section.features h1 {
+    font-size: 3.2rem;
+    }
+
+    section.features h2 {
+        font-size: 2.3rem;
+    }
+
+    section.features p {
+        font-size: 1.5rem;
+    }
+}
+
+/* Samsung S9 */
+
+@media (max-height: 360px) and (min-width: 740px) {
+    section.features {
+        height: 150vh;
+    }
+
+    section div.features {
+        height: 120vh;
+    }
+
+    section div.feature {
+        height: 120vh;
+    }
+}
+
+/* Samsung S9+ / Pixel 2 XL*/
+
+@media (min-height: 411px) and (min-width: 823px) {
+
+    section.features h1 {
+        font-size: 3.4rem;
+    }
+
+    section.features h2 {
+        font-size: 2.5rem;
+    }
+    
+    section.features p {
+        font-size: 1.6rem;
+    }
+
+    section.features {
+        height: 135vh;
+    }
+
+    section div.features {
+        height: 105vh;
+    }
+
+    section div.feature {
+        height: 105vh;
+    }
+}
+
+/* iPhone X */
+
+@media (max-height: 375px) and (min-width: 812px) {
+
+    section.features h1 {
+        font-size: 3.4rem;
+    }
+
+    section.features h2 {
+        font-size: 2.5rem;
+    }
+    
+    section.features p {
+        font-size: 1.6rem;
+    }
+
+    section.features {
+        height: 145vh;
+    }
+
+    section div.features {
+        height: 115vh;
+    }
+
+    section div.feature {
+        height: 115vh;
     }
 }
 
