@@ -869,6 +869,100 @@ section div.feature img {
     }
 }
 
+/* Desktop  1024px */
+
+@media (orientation: Landscape) and (min-width: 1024px) {
+
+    section.features {
+        padding: 50px 0 0 0;
+        height: 100vh;
+    }
+
+    section.features h1 {
+        font-size: 4rem;
+        padding-bottom: 40px;
+    }
+
+    section.features h2 {
+        padding-bottom: 30px;
+        font-size: 3rem;
+    }
+
+    section div.feature img {
+        padding-bottom: 40px;
+    }
+
+    section.features p {
+        font-size: 2rem;
+    }
+}
+
+/* Desktop 1280px */
+
+@media (orientation: Landscape) and (min-width: 1280px) {
+
+    section div.feature h2:nth-child(2) {
+        width: 29vw;
+    }
+}
+
+@media (orientation: Landscape) and (min-height: 800px) {
+
+    section.features {
+        height: 60vw;
+    }
+}
+
+/* Desktop 1440px */
+
+@media (orientation: Landscape) and (min-width: 1440px) {
+    section.features {
+        height: 100vh;
+    }
+
+    section div.features {
+        height: 65vh;
+        width: 92vw;
+    }
+
+    section div.feature {
+        height: 65vh;
+    }
+
+    section div.feature:nth-child(2) {
+        margin: 0 3vw;
+    }
+
+    section.features h1 {
+        font-size: 6rem;
+        padding-bottom: 50px;
+    }
+
+    section.features h2 {
+        padding-bottom: 40px;
+    }
+
+    section.features p {
+        font-size: 2.2rem;
+    }
+
+    section div.feature img {
+        padding-bottom: 50px;
+    }
+}
+
+@media (orientation: Landscape) and (min-width: 1920px) {
+
+    section.features {
+        padding-top: 60px;
+    }
+
+    div.feature h2 {
+        font-size: 3.6rem;
+        padding-bottom: 50px;
+    }
+}
+
 /* Section Projects */
 
 section.projects {
