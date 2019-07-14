@@ -458,13 +458,13 @@ header img {
     }
 }
 
-/* 1 section */
+/* Features section */
+/* Nokia Lumia 520 */
 
 section.features {
     width: 100vw;
     padding: 30px 5% 0;
     overflow: hidden;
-    /* position: relative; */
 }
 
 section h1, section h2 {
@@ -500,13 +500,120 @@ section p {
 }
 
 div.feature {
-    height: 60vh;
+    height: 65vh;
 }
 
 section div.feature img {
     width: 80vw;
     margin-left: 5vw;
     padding-bottom: 10px;
+}
+
+/* iPhone 5/SE */
+
+@media (min-height: 568px) and (max-width: 320px) {
+    section div.feature {
+        height: 60vh;
+    }
+}
+
+/* Samsung Galaxy S5 */
+
+@media (orientation: portrait) and (min-width: 360px) {
+    section h1 {
+        font-size: 2.8rem;
+    }
+
+    section h2 {
+        font-size: 2.2rem;
+    }
+
+    section p {
+        font-size: 1.4rem;
+    }
+
+    section h2:nth-child(2) {
+        width: 75vw;
+    }
+
+    section div.feature:first-child {
+        height: 60vh;
+    }
+}
+
+/* iPhone 6/7/8 */
+
+@media (orientation: portrait) and (min-width: 375px) {
+    section h1 {
+        font-size: 3rem;
+    }
+
+    section h2 {
+        font-size: 2.4rem;
+    }
+
+    section p {
+        font-size: 1.5rem;
+    }
+
+    section h2:nth-child(2) {
+        width: 80vw;
+    }
+}
+
+/* iPhone 6/7/8 Plus */
+@media (orientation: portrait) and (min-width: 414px) {
+    section h1 {
+        font-size: 3.2rem;
+    }
+
+    section h2 {
+        font-size: 2.6rem;
+    }
+
+    section p {
+        font-size: 1.6rem;
+    }
+}
+
+/* Samsung Galaxy S9 */
+
+@media (min-height: 740px) and (min-width: 360px) {
+    section div.feature {
+        height: 55vh;
+    }
+
+    section div.feature:first-child {
+        height: 51vh;
+    }
+}
+
+/* Samsung Galaxy S9+ */
+
+@media (min-height: 846px) and (min-width: 412px) {
+    section div.feature {
+        height: 57vh;
+    }
+
+    section div.feature:first-child {
+        height: 54vh;
+    }
+
+    section h2:nth-child(2) {
+        width: 85vw;
+    }
+
+    section h1 {
+        font-size: 3.4rem;
+    }
+
+    section h2 {
+        font-size: 2.8rem;
+    }
+
+    section p {
+        font-size: 1.8rem;
+    }
 }
 
 /* Section Projects */
