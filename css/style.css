@@ -1147,3 +1147,110 @@ section.motto {
 }
 
 /* Landscape orientation */
+/* Nokia Lumia 520 */
+@media (orientation: Landscape) {
+
+    section.projects h1 {
+        padding: 20px 0;
+    }
+
+    div.about-left, div.about-right {
+        height: 50vh;
+    }
+
+    div.about-left p, div.about-right p {
+        font-size: 1.4rem;
+    }
+}
+
+/* Samsung Galaxy S5 */
+@media (orientation: Landscape) and (min-width: 640px){
+
+    section.projects h1 {
+        font-size: 3.4rem;
+        margin: 0;
+    }
+
+    div.about-left h2, div.about-right h2 {
+        font-size: 2.8rem;
+    }
+
+    div.about-left p, div.about-right p {
+        font-size: 1.6rem;
+    }
+}
+
+/* iPhone 6/7/8 Plus / change display */
+@media (orientation: Landscape) and (min-width: 736px) {
+
+    section.projects h1 {
+        line-height: 50px;
+    }
+
+    div.project {
+        height: 65vh;
+        margin-bottom: 20px;
+    }
+    
+    div.project img {
+        height: 65vh;
+        width: 50vw;
+    }
+
+    div.about-left, div.about-right {
+        height: 65vh;
+        width: 50vw;
+        float: right;
+        margin: 0;
+    }
+
+    div.about-left {
+        padding-right: 40px;
+    }
+
+    div.about-right {
+        float: left;
+    }
+}
+
+/* Samsung S9 */
+@media (min-width: 740px) and (min-height: 360px) {
+
+    section.projects h1 {
+        line-height: 40px;
+    }
+}
+
+/* Samsung S9+ */
+@media (min-width: 740px) and (min-height: 360px) {
+
+    section.projects h1 {
+        line-height: 50px;
+    }
+
+    div.project h2 {
+        font-size: 3rem;
+    }
+
+    div.project p {
+        font-size: 1.8rem;
+    }
+}
+
+/* Samsung S9+ */
+@media (min-width: 812px) and (max-height: 375px) {
+
+    section.projects h1 {
+        line-height: 40px;
+    }
+
+    div.project h2 {
+        font-size: 2.8rem;
+    }
+
+    div.project p {
+        font-size: 1.7rem;
+    }
+}
+
+/* Desktop versions */
