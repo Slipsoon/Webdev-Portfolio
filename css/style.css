@@ -1370,3 +1370,99 @@ section.motto {
         font-size: 2.8rem;
     }
 }
+
+/* Motto section */
+/* Portrait orientation */
+/* Lumia 520 */
+
+section.motto {
+    height: 100vh;
+    background-image: url(/images/motto.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.motto p {
+    font-family: 'Saira', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+section.motto p.title {
+    padding: 50px 0 80px;
+    font-size: 2.3rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+section.motto p.description {
+    width: 90vw;
+    margin: 0 auto;
+    font-size: 1.8rem;
+    padding-bottom: 30px;
+}
+
+section.motto p.author {
+    font-size: 1.2rem;
+}
+
+/* Samsung Galaxy S5 */
+@media (min-width: 360px) {
+    section.motto p.title {
+        padding: 70px 0 100px;
+    }
+}
+
+/* iPhone 6/7/8 Plus */
+@media (min-width: 414px) {
+    section.motto p.title {
+        padding: 80px 0 100px;
+        font-size: 2.6rem;
+    }
+
+    section.motto p.description {
+        font-size: 2.2rem;
+    }
+
+    section.motto p.author {
+        font-size: 1.6rem;
+    }
+}
+
+/* Samsung Galaxy S9+ */
+@media (min-width: 412px) and (max-height: 846px) {
+    section.motto p.title {
+        padding: 100px 0 120px;
+        font-size: 3.2rem;
+    }
+
+    section.motto p.description {
+        font-size: 2.2rem;
+    }
+
+    section.motto p.author {
+        font-size: 1.6rem;
+    }
+}
+
+/* iPad */
+@media (min-width: 768px) {
+    section.motto p.title {
+        padding: 100px 0 120px;
+        font-size: 5rem;
+    }
+
+    section.motto p.description {
+        font-size: 3.2rem;
+    }
+
+    section.motto p.author {
+        font-size: 2.2rem;
+    }
+}
+
+/* Hobby section */
+
+section.hobby {
+    height: 100vh;
+}
