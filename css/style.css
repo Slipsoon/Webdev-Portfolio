@@ -1,5 +1,11 @@
-/* font-family: 'Saira', sans-serif;
+/* font-family: 'Saira', sans-serif; 
 font-family: 'Saira Condensed', sans-serif; */
+
+/* Need fixes:
+1600 x 900 
+1024 x 760
+1440 x 900 
+1280 x 768 */
 
 /* Nokia Lumia 520 */
 
@@ -17,7 +23,7 @@ font-family: 'Saira Condensed', sans-serif; */
 
 html {
     font-size: 10px;
-} 
+}
 
 header * {
     font-family: 'Saira Condensed', sans-serif;
@@ -44,7 +50,8 @@ header p {
     font-weight: bold;
 }
 
-header h1, header h2 {
+header h1,
+header h2 {
     font-size: 2rem;
     font-weight: bold;
 }
@@ -83,9 +90,11 @@ header img {
         font-size: 4.2rem;
     }
 
-    header h1, header h2 {
+    header h1,
+    header h2 {
         font-size: 2.4rem;
     }
+
     header a {
         line-height: 34px;
         font-size: 1.2rem;
@@ -100,9 +109,11 @@ header img {
         font-size: 4.8rem;
     }
 
-    header h1, header h2 {
+    header h1,
+    header h2 {
         font-size: 2.4rem;
     }
+
     header a {
         line-height: 38px;
         font-size: 1.4rem;
@@ -117,9 +128,11 @@ header img {
         font-size: 5rem;
     }
 
-    header h1, header h2 {
+    header h1,
+    header h2 {
         font-size: 2.8rem;
     }
+
     header a {
         line-height: 40px;
         font-size: 1.5rem;
@@ -134,9 +147,11 @@ header img {
         font-size: 6rem;
     }
 
-    header h1, header h2 {
+    header h1,
+    header h2 {
         font-size: 3.2rem;
     }
+
     header a {
         line-height: 46px;
         font-size: 1.7rem;
@@ -151,7 +166,8 @@ header img {
         font-size: 7rem;
     }
 
-    header h1, header h2 {
+    header h1,
+    header h2 {
         font-size: 3rem;
     }
 
@@ -170,7 +186,8 @@ header img {
         font-size: 8rem;
     }
 
-    header h1, header h2 {
+    header h1,
+    header h2 {
         font-size: 3.4rem;
     }
 
@@ -189,7 +206,8 @@ header img {
         font-size: 7rem;
     }
 
-    header h1, header h2 {
+    header h1,
+    header h2 {
         font-size: 3rem;
     }
 
@@ -208,7 +226,8 @@ header img {
         font-size: 9rem;
     }
 
-    header h1, header h2 {
+    header h1,
+    header h2 {
         font-size: 4.5rem;
     }
 
@@ -259,7 +278,8 @@ header img {
         font-size: 5rem;
     }
 
-    header h1, header h2 {
+    header h1,
+    header h2 {
         font-size: 2.2rem;
     }
 
@@ -281,7 +301,8 @@ header img {
         font-size: 5.5rem;
     }
 
-    header h1, header h2 {
+    header h1,
+    header h2 {
         font-size: 2.8rem;
     }
 
@@ -303,7 +324,8 @@ header img {
         font-size: 6.5rem;
     }
 
-    header h1, header h2 {
+    header h1,
+    header h2 {
         font-size: 3rem;
     }
 
@@ -332,7 +354,8 @@ header img {
         font-size: 7rem;
     }
 
-    header h1, header h2 {
+    header h1,
+    header h2 {
         font-size: 3.2rem;
     }
 
@@ -354,7 +377,8 @@ header img {
         font-size: 10rem;
     }
 
-    header h1, header h2 {
+    header h1,
+    header h2 {
         font-size: 4.5rem;
     }
 
@@ -390,7 +414,8 @@ header img {
         font-size: 11rem;
     }
 
-    header h1, header h2 {
+    header h1,
+    header h2 {
         font-size: 5rem;
     }
 
@@ -418,7 +443,8 @@ header img {
         font-size: 12rem;
     }
 
-    header h1, header h2 {
+    header h1,
+    header h2 {
         font-size: 6rem;
     }
 
@@ -442,7 +468,8 @@ header img {
         font-size: 14rem;
     }
 
-    header h1, header h2 {
+    header h1,
+    header h2 {
         font-size: 7rem;
     }
 
@@ -455,7 +482,7 @@ header img {
 
 /* Desktop 1920px */
 
-@media (orientation: Landscape) and (min-width: 1920px) {
+@media (min-width: 1820px) {
 
     header a {
         width: 36vw;
@@ -473,7 +500,8 @@ section.features {
     overflow: hidden;
 }
 
-section.features h1, section.features h2 {
+section.features h1,
+section.features h2 {
     text-align: center;
     text-transform: uppercase;
     font-family: 'Saira Condensed', sans-serif;
@@ -651,7 +679,7 @@ section div.feature img {
 /* Orientation Landscape */
 
 @media (orientation: Landscape) {
-    
+
     section.features {
         height: 145vh;
         padding: 30px 0 0;
@@ -738,7 +766,7 @@ section div.feature img {
 
 @media (orientation: Landscape) and (min-width: 667px) {
     section.features h1 {
-    font-size: 2.8rem;
+        font-size: 2.8rem;
     }
 
     section.features h2 {
@@ -754,7 +782,7 @@ section div.feature img {
 
 @media (orientation: Landscape) and (min-width: 667px) {
     section.features h1 {
-    font-size: 2.8rem;
+        font-size: 2.8rem;
     }
 
     section.features h2 {
@@ -783,7 +811,7 @@ section div.feature img {
     }
 
     section.features h1 {
-    font-size: 3.2rem;
+        font-size: 3.2rem;
     }
 
     section.features h2 {
@@ -822,7 +850,7 @@ section div.feature img {
     section.features h2 {
         font-size: 2.5rem;
     }
-    
+
     section.features p {
         font-size: 1.6rem;
     }
@@ -851,7 +879,7 @@ section div.feature img {
     section.features h2 {
         font-size: 2.5rem;
     }
-    
+
     section.features p {
         font-size: 1.6rem;
     }
@@ -1080,7 +1108,7 @@ section.motto {
 
 /* Samsung Galaxy S9 */
 
-@media (min-width: 360px) and (min-height: 740px){
+@media (min-width: 360px) and (min-height: 740px) {
     section.projects h1 {
         font-size: 3.4rem;
         line-height: 46px;
@@ -1097,7 +1125,7 @@ section.motto {
 
 /* Samsung Galaxy S9+ */
 
-@media (min-width: 412px) and (min-height: 846px){
+@media (min-width: 412px) and (min-height: 846px) {
     section.projects h1 {
         font-size: 4rem;
         line-height: 55px;
@@ -1114,7 +1142,7 @@ section.motto {
 
 /* iPhone X */
 
-@media (max-width: 375px) and (min-height: 812px){
+@media (max-width: 375px) and (min-height: 812px) {
     section.projects h1 {
         font-size: 3.6rem;
         line-height: 55px;
@@ -1131,7 +1159,7 @@ section.motto {
 
 /* iPad */
 
-@media (min-width: 768px) and (min-height: 1024px){
+@media (min-width: 768px) and (min-height: 1024px) {
     section.projects h1 {
         font-size: 7rem;
         line-height: 80px;
@@ -1154,28 +1182,32 @@ section.motto {
         padding: 20px 0;
     }
 
-    div.about-left, div.about-right {
+    div.about-left,
+    div.about-right {
         height: 50vh;
     }
 
-    div.about-left p, div.about-right p {
+    div.about-left p,
+    div.about-right p {
         font-size: 1.4rem;
     }
 }
 
 /* Samsung Galaxy S5 */
-@media (orientation: Landscape) and (min-width: 640px){
+@media (orientation: Landscape) and (min-width: 640px) {
 
     section.projects h1 {
         font-size: 3.4rem;
         margin: 0;
     }
 
-    div.about-left h2, div.about-right h2 {
+    div.about-left h2,
+    div.about-right h2 {
         font-size: 2.8rem;
     }
 
-    div.about-left p, div.about-right p {
+    div.about-left p,
+    div.about-right p {
         font-size: 1.6rem;
     }
 }
@@ -1191,13 +1223,14 @@ section.motto {
         height: 65vh;
         margin-bottom: 20px;
     }
-    
+
     div.project img {
         height: 65vh;
         width: 50vw;
     }
 
-    div.about-left, div.about-right {
+    div.about-left,
+    div.about-right {
         height: 65vh;
         width: 50vw;
         float: right;
@@ -1283,7 +1316,8 @@ section.motto {
         margin-bottom: 50px;
     }
 
-    div.about-left, div.about-right {
+    div.about-left,
+    div.about-right {
         height: 40vh;
         width: 45vw;
     }
@@ -1326,7 +1360,8 @@ section.motto {
         width: 80vw;
     }
 
-    div.about-left, div.about-right {
+    div.about-left,
+    div.about-right {
         width: 40vw;
     }
 
@@ -1345,7 +1380,7 @@ section.motto {
         /* margin: 20px 0; */
         padding-bottom: 80px;
         padding-top: 20px;
-    }    
+    }
 
     section.projects p {
         font-size: 2.4rem;
@@ -1377,7 +1412,7 @@ section.motto {
 
 section.motto {
     height: 100vh;
-    background-image: url(/images/motto.jpg);
+    background-image: url("../images/motto.jpg");
     background-size: cover;
     background-attachment: fixed;
 }
@@ -1466,7 +1501,7 @@ section.motto p.author {
 
 @media (orientation: landscape) {
     section.motto p.title {
-    padding: 30px 0;
+        padding: 30px 0;
     }
 }
 
@@ -1582,7 +1617,191 @@ section.motto p.author {
 }
 
 /* Hobby section */
+/* Portrait section */
+/* Nokia Lumia 520 */
 
-section.hobby {
-    height: 100vh;
+section.hobby p {
+    height: 30vh;
+    padding: 20px 20px 0;
+    font-family: 'saira condensed', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
 }
+
+div.hobby {
+    height: 25vh;
+    width: 100vw;
+    background-position: center;
+}
+
+div.hobby p {
+    height: 7.5vh;
+    padding: 0;
+    font-family: 'saira', sans-serif;
+    font-size: 2rem;
+    line-height: 40px;
+    font-weight: 400;
+    text-transform: none;
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+}
+
+div.hobbies div.hobby:nth-child(1) {
+    background-image: url("../images/hobby1.jpg");
+}
+
+div.hobbies div.hobby:nth-child(2) {
+    background-image: url("../images/hobby2.jpg");
+}
+
+div.hobbies div.hobby:nth-child(3) {
+    background-image: url("../images/hobby3.jpg");
+}
+
+div.hobbies div.hobby:nth-child(4) {
+    background-image: url("../images/hobby4.jpg");
+}
+
+/* Samsung Galaxy S5 */
+
+@media (orientation: portrait) and (min-width: 360px) {
+    section.hobby>p {
+        height: 25vh;
+    }
+}
+
+/* iPhone 6/7/8 Plus */
+
+@media (orientation: portrait) and (min-width: 414px) {
+    section.hobby>p {
+        height: 21vh;
+    }
+
+    div.hobby p {
+        line-height: 50px;
+    }
+}
+
+/* Samsung Galaxy S9 */
+
+@media (min-width: 360px) and (min-height: 740px) {
+    section.hobby>p {
+        height: 21vh;
+    }
+
+    div.hobby p {
+        line-height: 50px;
+    }
+}
+
+/* iPhone X */
+
+@media (min-width: 375px) and (max-height: 812px) {
+    section.hobby>p {
+        height: 19.5vh;
+    }
+
+    div.hobby p {
+        line-height: 60px;
+    }
+}
+
+/* Samsung Galaxy S9+ */
+
+@media (min-width: 412px) and (min-height: 846px) {
+    section.hobby>p {
+        height: 18vh;
+    }
+
+    div.hobby p {
+        line-height: 50px;
+    }
+}
+
+/* iPad */
+
+@media (min-width: 768px) and (min-height: 1024px) {
+    section.hobby>p {
+        height: 20vh;
+        font-size: 5rem;
+        line-height: 165px;
+    }
+
+    div.hobby p {
+        font-size: 3rem;
+        line-height: 80px;
+    }
+}
+
+/* Landscape section */
+
+@media (orientation: landscape) {
+    div.hobby {
+        height: 40vh;
+        width: 50vw;
+        float: left;
+    }
+
+    div.hobby p {
+        height: 14vh;
+    }
+}
+
+/* iPhone 6/7/8 */
+
+@media (orientation: landscape) and (min-width: 667px) {
+
+    section.hobby>p {
+        height: 25vh;
+    }
+
+    div.hobby p {
+        height: 12vh;
+        line-height: 45px;
+    }
+}
+
+/* iPhone 6/7/8 Plus */
+
+@media (orientation: landscape) and (min-width: 667px) {
+
+    section.hobby>p {
+        height: 23vh;
+    }
+
+    div.hobby p {
+        height: 10vh;
+        line-height: 40px;
+    }
+}
+
+/* Samsung Galaxy S9 */
+
+@media (orientation: landscape) and (min-width: 740px) {
+
+    section.hobby>p {
+        height: 25vh;
+        line-height: 50px;
+    }
+
+    div.hobby p {
+        height: 12vh;
+        line-height: 45px;
+    }
+}
+
+/* Samsung Galaxy S9+ */
+
+@media (orientation: landscape) and (min-width: 846px) {
+
+    section.hobby>p {
+        line-height: 60px;
+    }
+}
+
+/* Desktop versions */
+/* 1024px */
+
+/* Contact section */
