@@ -2165,6 +2165,118 @@ section.contact span {
     }
 }
 
+/* Desktop section */
+/* Desktop 1024px */
+
+@media (min-width: 1024px) {
+
+    section.contact h1 {
+        padding: 35px 0 25px;
+        font-size: 5rem;
+    }
+
+    section.contact input {
+        height: 8vh;
+        margin: 2vh 0;
+    }
+
+    section.contact textarea {
+        height: 25vh;
+        margin: 2vh 0;
+    }
+
+    section.contact button {
+        height: 10vh;
+        margin: 2vh auto 7vh;
+    }
+
+    div.social {
+        height: 13.5vh;
+    }
+
+    div.social span {
+        height: 13.5vh;
+        padding-left: 2vw;
+        font-size: 2.5rem;
+    }
+
+    section.contact form {
+        float: left;
+        margin: auto 5vw;
+    }
+
+    section.contact form, section.contact input, section.contact textarea, section.contact button {
+        width: 45vw;
+    }
+
+    div.socials {
+        float: left;
+        width: 35vw;
+    }
+}
+
+/* 1440px */
+
+@media (min-width: 1440px) {
+    section.contact h1 {
+        padding: 45px 0 35px;
+    }
+
+    div.social {
+        height: 14vh;
+    }
+
+    div.social span {
+        height: 14vh;
+        font-size: 2.8rem;
+        line-height: 90px;
+    }
+
+    section.contact input, section.contact textarea, section.contact button {
+        font-size: 2.2rem;
+    }
+}
+
+/* 1536px */
+
+@media (min-width: 1536px) {
+
+    section.contact h1 {
+        padding-top: 35px;
+    }
+
+    div.socials:last-child {
+        padding-bottom: 2vh;
+    }
+}
+
+/* 1600px */ 
+
+@media (min-width: 1600px) {
+
+    section.contact h1 {
+        padding-top: 40px;
+    }
+}
+
+/* 1920px */ 
+
+@media (min-width: 1920px) {
+
+    section.contact h1 {
+        padding-top: 50px;
+        font-size: 7rem;
+    }
+
+    section.contact input, section.contact textarea, section.contact button {
+        font-size: 3rem;
+    }
+
+    div.social span {
+        font-size: 4rem;
+    }
+}
+
 /* Footer */
 
 footer {
@@ -2254,5 +2366,33 @@ footer {
 @media (max-height: 375px) and (min-width: 812px) {
     footer {
         font-size: 2.2rem;
+    }
+}
+
+/* Desktop 1024px */
+
+@media (min-width: 1024px) {
+    footer {
+        height: 10vh;
+        line-height: 80px;
+        font-size: 2.5rem;
+    }
+}
+
+/* Desktop 1600px */
+
+@media (min-width: 1600px) {
+    footer {
+        height: 10vh;
+        line-height: 90px;
+    }
+}
+
+/* Desktop 1920px */
+
+@media (min-width: 1920px) {
+    footer {
+        font-size: 3rem;
+        line-height: 100px;
     }
 }
