@@ -1977,6 +1977,10 @@ section.contact span {
 
 @media (orientation: portrait) and (min-width: 360px) {
 
+    section.contact h1 {
+        font-size: 3.5rem;
+    }
+
     div.socials:last-child {
         padding-bottom: 3vh;
     }
@@ -1987,6 +1991,87 @@ section.contact span {
 
     section.contact span {
         font-size: 2.2rem;
+        line-height: 90px;
+    }
+}
+
+/* Samsung Galaxy S9 */
+
+@media (min-height: 740px) and (max-width: 360px) {
+
+    section.contact h1 {
+        font-size: 3rem;
+    }
+
+    section.contact span {
+        line-height: 90px;
+    }
+}
+
+/* Samsung Galaxy S9+ */
+
+@media (min-height: 846px) and (max-width: 412px) {
+
+    div.social {
+        height: 12vh;
+    }
+
+    div.social span {
+        height: 12vh;
+    }
+
+    section.contact button {
+        margin-bottom: 6vh;
+    }
+}
+
+/* iPhone X */
+
+@media (min-height: 812px) and (max-width: 375px) {
+
+    div.social {
+        height: 13vh;
+    }
+
+    div.social span {
+        height: 13vh;
+    }
+
+    section.contact button {
+        margin-bottom: 5vh;
+    }
+}
+
+/* iPad */
+
+@media (min-height: 1024px) and (max-width: 768px) {
+
+    section.contact h1 {
+        font-size: 6rem;
+    }
+
+    section.contact input {
+        height: 9vh;
+        font-size: 3rem;
+    }
+
+    section.contact textarea {
+        font-size: 3rem;
+    }
+
+    section.contact button {
+        font-size: 3rem;
+    }
+
+    div.social {
+        float: left;
+        height: 13vh;
+        width: 45vw;
+    }
+
+    div.social span {
+        height: 13vh;
+        font-size: 3rem;
     }
 }
 
@@ -2018,5 +2103,22 @@ footer {
     footer {
         height: 10vh;
         line-height: 70px;
+    }
+}
+
+/* Samsung Galaxy S9+ */
+
+@media (orientation: portrait) and (min-width: 360px) {
+    footer {
+        line-height: 80px;
+    }
+}
+
+/* iPad */
+
+@media (orientation: portrait) and (min-width: 360px) {
+    footer {
+        font-size: 3rem;
+        line-height: 100px;
     }
 }
