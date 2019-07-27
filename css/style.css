@@ -1,4 +1,4 @@
-/* font-family: 'Saira', sans-serif; 
+/* font-family: 'Saira', sans-serif;  
 font-family: 'Saira Condensed', sans-serif; */
 
 /* Need fixes:
@@ -2075,6 +2075,96 @@ section.contact span {
     }
 }
 
+/* Landscape orientation */
+
+@media (orientation: landscape) {
+
+    section.contact input {
+        height: 12vh;
+        font-size: 1.4rem;
+        margin: 4vh 0;
+    }
+
+    section.contact textarea {
+        height: 32vh;
+        margin: 4vh 0;
+        font-size: 1.4rem;
+    }
+
+    section.contact button {
+        height: 15vh;
+        margin-bottom: 20vh;
+    }
+
+    div.socials {
+        margin: 0 5vw;
+    }
+
+    div.social {
+        float: left;
+        height: 30vh;
+        width: 45vw;
+    }
+
+    div.social span {
+        height: 30vh;
+    }
+}
+
+/* Samsung Galaxy S5 */
+@media (orientation: landscape) and (min-width: 640px) {
+
+    section.contact h1 {
+        font-size: 3rem;
+    }
+
+    section.contact input,
+    section.contact textarea,
+    section.contact button {
+        font-size: 1.7rem;
+    }
+
+    section.contact button {
+        margin-bottom: 15vh;
+    }
+
+    div.social {
+        height: 25vh;
+    }
+}
+
+/* iPhone 6/7/8 Plus  */
+@media (orientation: landscape) and (min-width: 736px) {
+
+    section.contact button {
+        margin-bottom: 12vh;
+    }
+
+    div.social {
+        height: 22vh;
+    }
+
+    div.social span {
+        font-size: 2.3rem;
+    }
+}
+
+/* Samsung Galaxy S9 */
+@media (max-height: 360px) and (min-width: 740px) {
+
+    div.social {
+        height: 25vh;
+    }
+}
+
+/* iPhone X */
+@media (max-height: 375px) and (min-width: 812px) {
+
+    div.social {
+        height: 25vh;
+    }
+}
+
 /* Footer */
 
 footer {
@@ -2116,9 +2206,53 @@ footer {
 
 /* iPad */
 
-@media (orientation: portrait) and (min-width: 360px) {
+@media (max-height: 1024px) and (min-width: 768px) {
     footer {
         font-size: 3rem;
         line-height: 100px;
+    }
+}
+
+/* Landscape orientation */
+
+@media (orientation: landscape) {
+    footer {
+        height: 20vh;
+        line-height: 65px;
+    }
+}
+
+/* Samsung Galaxy S5 */
+@media (orientation: landscape) and (min-width: 640px) {
+    footer {
+        line-height: 70px;
+    }
+}
+
+/* iPhone 6/7/8 Plus */
+@media (orientation: landscape) and (min-width: 640px) {
+    footer {
+        height: 18vh;
+    }
+}
+
+/* Samsung Galaxy S9+ */
+@media (max-height: 360px) and (min-width: 740px) {
+    footer {
+        line-height: 60px;
+    }
+}
+
+/* Samsung Galaxy S9+ */
+@media (max-height: 412px) and (min-width: 846px) {
+    footer {
+        font-size: 2.2rem;
+    }
+}
+
+/* iPhone X */
+@media (max-height: 375px) and (min-width: 812px) {
+    footer {
+        font-size: 2.2rem;
     }
 }
